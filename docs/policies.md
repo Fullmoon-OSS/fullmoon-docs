@@ -28,7 +28,7 @@ economy-api는 nginx를 통해 `https://api.fullmoon.ink/economy/`로 인터넷�
 3. **숫자를 하드코딩하지 마세요.** 배수·캡은 `/v1/config`에서 읽어요(30초 캐시).
    운영자가 값을 바꾸면 여러분 UI도 같이 움직여요.
 
-이 규칙은 [통합 카탈로그](https://github.com/Fullmoon-OSS/fullmoon-sdk/blob/main/INTEGRATIONS.md)
+이 규칙은 [모듈 카탈로그](https://github.com/Fullmoon-OSS/fullmoon-sdk/blob/main/MODULES.md)
 등록 유지 조건이기도 해요.
 
 ## 키 발급·교체 절차

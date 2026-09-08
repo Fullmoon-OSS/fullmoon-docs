@@ -70,8 +70,8 @@ const wal = await eco.getWalletByMc('SteveMan');   // MC 사용자명 기반이�
 
 ## 6. 통합 등록 (선택)
 
-만든 것을 [market.fullmoon.ink](https://market.fullmoon.ink)
-[통합 카탈로그](https://github.com/Fullmoon-OSS/fullmoon-sdk/blob/main/INTEGRATIONS.md)에
+만든 것을 [modules.fullmoon.ink](https://modules.fullmoon.ink)
+[모듈 카탈로그](https://github.com/Fullmoon-OSS/fullmoon-sdk/blob/main/MODULES.md)에
 PR 한 장으로 등록할 수 있어요.
 
 ## 다음 읽을거리
