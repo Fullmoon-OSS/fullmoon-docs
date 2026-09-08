@@ -24,7 +24,7 @@ PostgreSQL 원장을 여러 봇·대시보드·클라이언트가 함께 읽는 
 [docs/policies.md](./docs/policies.md) — 왜 읽기 전용인가요, 3가지 철칙, 키
 발급·유출 대응 절차가 담겨 있어요.
 
-## 통합 등록 (커뮤니티 모듈)
+## 모듈 등록
 
 SDK·API 위에 만든 봇·대시보드·도구는
 [modules.fullmoon.ink](https://modules.fullmoon.ink) 카탈로그에 등록할 수 있어요.

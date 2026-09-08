@@ -68,7 +68,7 @@ const wal = await eco.getWalletByMc('SteveMan');   // MC 사용자명 기반이�
 | `405` 쓰기 시도 | API가 막아요 — 설계상 쓰기는 없어요 |
 | `getConfigValue()` 실패 | **예외 없음** — fallback을 돌려줘요(설정은 부가 정보). 운영 문제를 보려면 `getConfigMap()` |
 
-## 6. 통합 등록 (선택)
+## 6. 모듈 등록 (선택)
 
 만든 것을 [modules.fullmoon.ink](https://modules.fullmoon.ink)
 [모듈 카탈로그](https://github.com/Fullmoon-OSS/fullmoon-sdk/blob/main/MODULES.md)에
