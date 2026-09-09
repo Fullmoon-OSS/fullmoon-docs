@@ -10,7 +10,9 @@
 
 ## 1. 키 발급 (운영자에게 요청)
 
-봇 이름을 정해서 풀문 네트워크 디스코드 운영진에게 알려주면 bearer 키를 줘요.
+[API 키 발급 이슈](https://github.com/Fullmoon-OSS/fullmoon-sdk/issues/new?template=key-request.yml)로
+봇 이름과 용도를 적어 제출하면 돼요 — 디스코드 운영진에게 직접 말해도 돼요.
+운영자가 확인 후 키를 비공개 채널로 전달해요.
 
 - 스코프는 없어요. 키 하나 = 읽기 전부예요.
 - 키가 새면 읽기가 샌다 — 그 이상은 아무것도 못 해요(설계상이에요).
@@ -72,7 +74,9 @@ const wal = await eco.getWalletByMc('SteveMan');   // MC 사용자명 기반이�
 
 만든 것을 [modules.fullmoon.ink](https://modules.fullmoon.ink)
 [모듈 카탈로그](https://github.com/Fullmoon-OSS/fullmoon-sdk/blob/main/MODULES.md)에
-PR 한 장으로 등록할 수 있어요.
+등록할 수 있어요. git이 편하면 PR, 아니면
+[모듈 등록 이슈](https://github.com/Fullmoon-OSS/fullmoon-sdk/issues/new?template=module-registration.yml)
+한 장으로도 돼요 — 운영자가 대신 넣어줘요.
 
 ## 다음 읽을거리
 

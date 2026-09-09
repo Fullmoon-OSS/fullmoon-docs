@@ -63,8 +63,9 @@ economy-api는 nginx를 통해 `https://api.fullmoon.ink/economy/`로 인터넷�
 
 ## 키 발급·교체 절차
 
-1. **발급** — 봇 이름을 정해 운영진에게 알려주세요. 운영자는 32자 이상 랜덤 키를
-   생성해 레지스트리에 등록하고 키를 전달해요.
+1. **발급** — [API 키 발급 이슈](https://github.com/Fullmoon-OSS/fullmoon-sdk/issues/new?template=key-request.yml)를
+   열거나 운영진에게 직접 알려주세요. 운영자는 32자 이상 랜덤 키를
+   생성해 레지스트리에 등록하고, 키 자체는 비공개 채널로 전달해요.
    ```bash
    node -e "console.log(require('crypto').randomBytes(24).toString('base64url'))"
    ```
