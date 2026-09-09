@@ -54,7 +54,7 @@ economy-api는 nginx를 통해 `https://api.fullmoon.ink/economy/`로 인터넷�
    `MemoryMax`/`CPUQuota`, 이그레스 제한)
 2. 원장 DB 접근 기본 금지 — 정말 필요하면 read-only 역할만 별도 부여
 3. 모듈별 별도 API 키 (공유 키 금지, 즉시 폐기 가능)
-4. 공개 레po 소스 + 운영자 코드 리뷰 기록
+4. 공개 레포 소스 + 운영자 코드 리뷰 기록
 
 ### 구조적 방어 (최악의 경우 상한)
 
