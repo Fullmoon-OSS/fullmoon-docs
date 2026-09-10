@@ -11,7 +11,7 @@ PostgreSQL 원장을 여러 봇·대시보드·클라이언트가 함께 읽는 
 | [fullmoon-sdk](https://github.com/Fullmoon-OSS/fullmoon-sdk) | 공식 경제 API 클라이언트 (의존성 0) + 모듈 카탈로그 데이터예요 |
 | [fullmoon-economy-api](https://github.com/Fullmoon-OSS/fullmoon-economy-api) | 읽기 전용 경제 HTTP API 서버 소스예요 |
 | [fullmoon-modules](https://github.com/Fullmoon-OSS/fullmoon-modules) | 모듈 카탈로그 사이트 — [modules.fullmoon.ink](https://modules.fullmoon.ink) |
-| [fullmoon-client](https://github.com/RedHatOnTop/fullmoon-client) | 풀문 전용 마인크래프트 클라이언트예요 (GPL-3.0) |
+| [fullmoon-client](https://github.com/Fullmoon-OSS/fullmoon-client) | 풀문 전용 마인크래프트 클라이언트예요 (GPL-3.0) |
 | **fullmoon-docs** | 이 문서 — 시작 가이드, 정책이에요 |
 
 ## 시작하기
