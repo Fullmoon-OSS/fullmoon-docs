@@ -8,10 +8,10 @@ PostgreSQL 원장을 여러 봇·대시보드·클라이언트가 함께 읽는 
 
 | 레포 | 내용 |
 |---|---|
-| [fullmoon-sdk](https://github.com/Fullmoon-OSS/fullmoon-sdk) | 공식 경제 API 클라이언트 (의존성 0) + 모듈 카탈로그 데이터예요 |
-| [fullmoon-economy-api](https://github.com/Fullmoon-OSS/fullmoon-economy-api) | 읽기 전용 경제 HTTP API 서버 소스예요 |
-| [fullmoon-modules](https://github.com/Fullmoon-OSS/fullmoon-modules) | 모듈 카탈로그 사이트 — [modules.fullmoon.ink](https://modules.fullmoon.ink) |
-| [fullmoon-client](https://github.com/Fullmoon-OSS/fullmoon-client) | 풀문 전용 마인크래프트 클라이언트예요 (GPL-3.0) |
+| [fullmoon-sdk](https://github.com/fullmoon-network/fullmoon-sdk) | 공식 경제 API 클라이언트 (의존성 0) + 모듈 카탈로그 데이터예요 |
+| [fullmoon-economy-api](https://github.com/fullmoon-network/fullmoon-economy-api) | 읽기 전용 경제 HTTP API 서버 소스예요 |
+| [fullmoon-modules](https://github.com/fullmoon-network/fullmoon-modules) | 모듈 카탈로그 사이트 — [modules.fullmoon.ink](https://modules.fullmoon.ink) |
+| [fullmoon-client](https://github.com/fullmoon-network/fullmoon-client) | 풀문 전용 마인크래프트 클라이언트예요 (GPL-3.0) |
 | **fullmoon-docs** | 이 문서 — 시작 가이드, 정책이에요 |
 
 ## 시작하기
@@ -29,7 +29,7 @@ PostgreSQL 원장을 여러 봇·대시보드·클라이언트가 함께 읽는 
 SDK·API 위에 만든 봇·대시보드·도구는
 [modules.fullmoon.ink](https://modules.fullmoon.ink) 카탈로그에 등록할 수 있어요.
 등록 절차는
-[fullmoon-sdk의 MODULES.md](https://github.com/Fullmoon-OSS/fullmoon-sdk/blob/main/MODULES.md)에
+[fullmoon-sdk의 MODULES.md](https://github.com/fullmoon-network/fullmoon-sdk/blob/main/MODULES.md)에
 있어요 — PR 한 장이면 돼요.
 
 ## 공개 엔드포인트

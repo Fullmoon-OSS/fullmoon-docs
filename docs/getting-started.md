@@ -10,7 +10,7 @@
 
 ## 1. 키 발급 (운영자에게 요청)
 
-[API 키 발급 이슈](https://github.com/Fullmoon-OSS/fullmoon-sdk/issues/new?template=key-request.yml)로
+[API 키 발급 이슈](https://github.com/fullmoon-network/fullmoon-sdk/issues/new?template=key-request.yml)로
 봇 이름과 용도를 적어 제출하면 돼요 — 디스코드 운영진에게 직접 말해도 돼요.
 운영자가 확인 후 키를 비공개 채널로 전달해요.
 
@@ -20,7 +20,7 @@
 
 ## 2. 클라이언트 복사 (30초)
 
-[fullmoon-sdk](https://github.com/Fullmoon-OSS/fullmoon-sdk)의
+[fullmoon-sdk](https://github.com/fullmoon-network/fullmoon-sdk)의
 `economyClient.js`를 프로젝트에 복사해요. 의존성 0, Node 18+, ESM. 이 파일 하나가
 SDK 전부예요.
 
@@ -55,9 +55,9 @@ const wal = await eco.getWalletByMc('SteveMan');   // MC 사용자명 기반이�
 
 ## 4. 예제 붙이기
 
-- [`examples/balance-and-ranking.js`](https://github.com/Fullmoon-OSS/fullmoon-sdk/blob/main/examples/balance-and-ranking.js) —
+- [`examples/balance-and-ranking.js`](https://github.com/fullmoon-network/fullmoon-sdk/blob/main/examples/balance-and-ranking.js) —
   디스코드 봇 `/잔액` `/랭킹` 커맨드 골격이에요
-- [`examples/dashboard-poller.js`](https://github.com/Fullmoon-OSS/fullmoon-sdk/blob/main/examples/dashboard-poller.js) —
+- [`examples/dashboard-poller.js`](https://github.com/fullmoon-network/fullmoon-sdk/blob/main/examples/dashboard-poller.js) —
   대시보드 집계 5종 폴링이에요
 
 ## 5. 알아둘 에러 처리
@@ -73,12 +73,12 @@ const wal = await eco.getWalletByMc('SteveMan');   // MC 사용자명 기반이�
 ## 6. 모듈 등록 (선택)
 
 만든 것을 [modules.fullmoon.ink](https://modules.fullmoon.ink)
-[모듈 카탈로그](https://github.com/Fullmoon-OSS/fullmoon-sdk/blob/main/MODULES.md)에
+[모듈 카탈로그](https://github.com/fullmoon-network/fullmoon-sdk/blob/main/MODULES.md)에
 등록할 수 있어요. git이 편하면 PR, 아니면
-[모듈 등록 이슈](https://github.com/Fullmoon-OSS/fullmoon-sdk/issues/new?template=module-registration.yml)
+[모듈 등록 이슈](https://github.com/fullmoon-network/fullmoon-sdk/issues/new?template=module-registration.yml)
 한 장으로도 돼요 — 운영자가 대신 넣어줘요.
 
 ## 다음 읽을거리
 
 - [정책](./policies.md) — 3가지 철칙과 그 근거예요
-- [API 레퍼런스](https://github.com/Fullmoon-OSS/fullmoon-economy-api#엔드포인트)
+- [API 레퍼런스](https://github.com/fullmoon-network/fullmoon-economy-api#엔드포인트)
